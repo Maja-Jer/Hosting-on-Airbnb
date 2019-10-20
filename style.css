@@ -1,0 +1,147 @@
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+body {
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+  background-color: #f0f5f5;
+  text-align: center;
+  font-weight: 400;
+
+}
+
+/*----------------------- header*/
+
+head {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*----------------------navigation bar*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+li {
+  float: left;
+}
+
+navbar {
+  color: #FF5A5F;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: #FF5A5F;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*---------------------end of navigation bar*/
+
+
+/*---------------------main*/
+.wrapper {
+    padding: 1rem 1rem 2rem 1rem;
+    margin-top: 56px;
+}
+
+.p-0 {
+    padding: 0!important;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin: 0;
+}
+
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.text-left {
+    text-align: left!important;
+}
+
+.p-0 {
+    padding: 0!important;
+}
+
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+
+.text-center {
+    text-align: center!important;
+}
+
+.mt-4, .my-4 {
+    margin-top: 1.5rem!important;
+}
+
+@media screen and (max-width: 575.9px) {
+h1 {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+}
+
+
+
+.intro {
+    font: #808080;
+    font-size: 24px;
+}
+
+
+
+
+/*---------------------footer*/
+
+.p-3 {
+    padding: 1rem!important;
+}
+
+.mt-5, .my-5 {
+    margin-top: 3rem!important;
+}
